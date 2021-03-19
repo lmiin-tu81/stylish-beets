@@ -1,25 +1,102 @@
 html {
   box-sizing: border-box;
+  font-family: "PT Serif", serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-html {
-  font-family: 'PT Serif', serif;
+body {
+  background-color: #c9b5ab;
 }
 
-body {
-  background: #c9b5ab;
+h1 {
+  font-size: 1.5rem;
 }
 
 h1, h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
 
+nav > ol {
+  list-style-type: none;
+}
 
+a {
+  text-decoration: none;
+  color: #8f2440;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+strong {
+  font-weight: normal;
+}
+
+blockquote > p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+figcaption > b {
+  font-weight: normal;
+}
+
+footer + a {
+  font-family: "PT Serif", serif;
+}
+
+ul {
+  list-style-type: circle;
+  font-size: .8rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+h2 + p {
+  font-weight: normal;
+  font-style: italic;
+}
+
+h2 + ol {
+  list-style-type: lower-greek;
+}
+
+footer > cite {
+  font-size: .8rem;
+}
+
+footer {
+  font-size: .8rem;
+}
+
+img {
+  width: 100%;
+}
+
+.wiki {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+}
+
+.para {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
 
 /* font-family: 'PT Sans', sans-serif;
 font-family: 'PT Serif', serif; */

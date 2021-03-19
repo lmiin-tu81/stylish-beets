@@ -5,3 +5,21 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+html {
+  font-family: 'PT Serif', serif;
+}
+
+body {
+  background: #c9b5ab;
+}
+
+h1, h2 {
+  font-family: 'PT Sans', sans-serif;
+  color: #3f1622;
+}
+
+
+
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif; */
